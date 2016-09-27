@@ -1,0 +1,58 @@
+Rev 3d867387 - Mandelbrot
+real    13m4.840s	13m6.125s	13m4.664s
+user    13m2.790s	13m3.230s	13m3.190s
+sys     0m0.520s	0m0.190s	0m0.050s
+
+
+Rev fe28b096 - Mandelbrot, 1 entry branch cache
+real    10m53.538s	10m53.229s	10m53.331s
+user    10m52.080s	10m52.240s	10m52.310s
+sys     0m0.300s	0m0.100s	0m0.070s
+
+
+Rev 92056016 - Mandelbrot, templated VM
+real    10m39.663s	10m39.721s	10m40.590s
+user    10m38.660s	10m38.480s	10m38.500s
+sys     0m0.060s	0m0.240s	0m0.240s
+
+
+Rev 462f05b2 - Mandelbrot, initial FastVM
+real    2m17.785s	2m17.528s	2m17.756s
+user    2m17.310s	2m17.240s	2m17.260s
+sys     0m0.020s	0m0.060s	0m0.090s
+
+
+Rev b2fd275c - Mandelbrot, metrics gathering enabled in FastVM
+real    2m28.020s	2m28.022s	2m27.908s
+user    2m27.640s	2m27.610s	2m27.620s
+sys     0m0.090s	0m0.140s	0m0.100s
+
+DebugVM Cycles = 10,712,557,593
+FastVM Cycles  =  3,018,468,909
+
+
+FastVM Cycles  =  2,994,391,927 - Optimised [-]
+FastVM Cycles  =  2,994,042,768 - Optimised [-]+*
+FastVM Cycles  =  2,950,925,738 - Optimised [->+<]
+
+
+Rev e72b0ba0 - Mandelbrot, instructions definitions altered to optimise main switch statement
+real    2m16.638s	2m16.356s	2m16.901s
+user    2m16.090s	2m16.140s	2m16.180s
+sys     0m0.090s	0m0.060s	0m0.070s
+Cycles       = 2,950,925,738
+
+
+Rev 495c3acd - Look ahead optimisation support, now picks up some optimisations that were missed before
+real    2m10.925s	2m10.941s	2m11.562s
+user    2m10.620s	2m10.710s	2m10.760s
+sys     0m0.140s	0m0.070s	0m0.080s
+Program Size = 3,474
+Cycles       = 2,769,702,623
+
+
+Rev 74509ac4 - Added OP_SEARCH instruction
+real    1m41.406s	1m41.450s	1m41.502s
+user    1m41.200s	1m41.170s	1m41.230s
+sys     0m0.060s	0m0.080s	0m0.040s
+Program Size = 2,886

@@ -1,0 +1,1 @@
+[ Some extra text to make sure the right index is reported
